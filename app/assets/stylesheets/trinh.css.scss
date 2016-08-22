@@ -1,0 +1,75 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+/*Navbar*/
+#header  nav{
+  background:#FFFFFF;
+  padding-top:10px;
+  padding-bottom: 10px;
+  text-transform: uppercase;
+  text-align: center;
+  box-shadow: 0px 2px 2px rgba(0,0,0,0.2);
+}
+/*calltoaction*/
+#calltoaction .jumbotron{
+  padding: 150px 0;
+  text-align: center;
+  /*background: #F1F1F1 url('../images/bg4.jpg') center no-repeat;*/
+  background: #F1F1F1 url("bg4.jpg") center no-repeat;
+  background-size: cover;
+  margin-bottom: 0px;
+}
+#calltoaction .jumbotron h1{
+  color:#FFFFFF;
+  text-shadow: 0px 2px 2px rgba(0,0,0,0.2);
+}
+#calltoaction .jumbotron p{
+  color:#FFFFFF;
+  text-shadow: 0px 2px 2px rgba(0,0,0,0.2);
+}
+
+#calltoaction .jumbotron .btn-feature{
+  color: #FFFFFF;
+  border: 1px solid #FFFFFF;
+}
+#calltoaction .jumbotron .btn-feature:hover{
+  color: #F1F1F1;
+  border: 1px solid #FFFFFF;
+}
+/*feature1*/
+#feature1{
+  background: #ECF0F1;
+  color: #2C3E50;
+  text-align: center;
+}
+#feature1 .glyphicon{
+  font-size: 50px;
+}
+/*feature2*/
+
+#feature2{
+  background:#34495E;
+  color: #FFFFFF;
+}
+#feature2 p{
+  color: #FFFFFF;
+}
+#feature1, #feature2, #feature3, #feature4, #footer{
+  padding: 30px 0px;
+}
+/*feature3*/
+#feature3 .row{
+  padding: 20px 0px;
+}
+/*feature3*/
+#feature4 {
+  background: #ECF0F1;
+}
+
+/*footer*/
+#footer {
+  background: #34495E;
+}
+#footer a{
+  color: #FFFFFF;
+  text-transform: uppercase;
+}
